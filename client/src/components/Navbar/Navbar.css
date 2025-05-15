@@ -1,0 +1,488 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+nav{
+    width: 100%;
+    background: hsl(0, 0%, 100%);
+    display: flex;
+}
+.Header-One{
+    display: flex;
+    align-items: center;
+    padding: 2px 10px;
+}
+.Header-logo{
+    padding: 10px;
+}
+.Header-logo img{
+    width: 90%;
+    filter: brightness(120%);
+}
+.Header-List{
+    display: flex;
+    gap: 10px;
+    padding-left: 32rem;
+    cursor: pointer;
+}
+.Header-List li{
+    width: 100%;
+}
+.Blck{
+    color: #000;
+}
+
+.Header-List li a{
+    color: rgb(55, 130, 231);
+    font-size: 11px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+.SelOp{
+    font-size: 10px;
+    border: 0;
+    outline: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(55, 130, 231);
+}
+
+
+/* Icon styling  */
+
+.IoMdCheckmark{
+    color: #fff;
+}
+
+/* Bluehost First Container With Blue Background */
+
+main{
+    padding: 1px 10px;
+    width: 100%;
+}
+.Hero-Page{
+    background: rgb(55, 130, 231);
+    height: 23rem;
+    border-radius: 10px; 
+    width: 100%;
+}
+.Img-Div1{
+    width: 100%;
+}
+.Img-Div1 img{
+    width: 47%;
+    height: 64vh;
+    float: right;
+}
+.Write-Up{
+    width: 100%;
+}
+.Write-Up h1{
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 900;
+    padding-left: 2.5rem;
+    margin-top: 13px;
+}
+.Ul-list1{
+    display: flex;
+    padding: 10px 5%;
+}
+                /* ------------------ First List ----------------------- */
+.List-Hook{
+    margin-top: 13px;
+}
+.List-Hook ul{
+    text-decoration: none;
+}
+.List-Hook ul li{
+    font-size: 14px;
+    font-weight: 400;
+}
+.List-Hook ul li a{
+    color: #fff;
+}
+.FloatU{
+    margin-left: 7rem;
+    margin-top: 25px;
+}
+.Float li{
+    font-size: 11px;   
+}
+.Float li a{
+    color: #fff;
+}
+.Bottom{
+    margin-bottom: 10px;
+}
+.BTn{
+    margin-top: 10px;
+    padding: 10px 5%;
+}
+.BTn button{
+    padding: 12px 25px;
+    border-radius: 5px;
+    background: #FFD662;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+}
+.React-dollar{
+    padding: 0 5%;
+    display: flex;
+    gap: 3px;
+    color: #227685;
+}
+.React-dollar h2{
+    font-size: 13px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+}
+
+/* ------- Review Div or Section ----------------------*/
+
+.Review{
+    display: flex; 
+    padding: 10px 15%;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 1rem;
+    background: #DBF1FC;
+    border-radius: 0 0 9px 9px ;
+}
+.Review img{
+    width: 30%;
+    height: 10vh;
+}
+.Review h2{
+    font-size: 9px;
+    padding-left: 5rem;
+    margin-top: 15px;
+    color: #717179;
+}
+.Review h2 span{
+    color: #041D33;
+}
+
+
+/* ----Section-Main--------*/
+
+.Section-Main{
+    width: 100%;
+    height: 61.2rem;
+    padding: 0 5rem;
+    margin-top: 6rem;
+    display: flex;
+    gap: 10px;
+}
+.First-Page{
+    border: 1.5px solid rgb(55, 130, 231);
+    width: 34%;
+    border-radius: 10px;
+    margin-top: 3rem;
+}
+.Second-Page{
+    border: 1.5px solid #041D33;
+    width: 32%;
+    border-radius: 10px;
+}
+.Header-Div{
+    background: #041D33;
+    padding: 5px;
+    width: 100%;
+    border-radius: 6px 6px 0 0 ;
+}
+.Header-Div h1{
+    color: #fff;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.Third-Page{
+    border: 1.5px solid rgb(55, 130, 231);
+    width: 34%;
+    border-radius: 10px;
+    margin-top: 3rem;
+}
+/*----Inner-Div /Full-ScLap-----------*/
+
+.Full-Scalp{
+    padding:  8% 10px;
+}
+.Full-Scalp h5{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.Full-Scalp p{
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 1rem;
+}
+.G-Margin{
+    display: flex;
+    gap: 3.9rem;
+}
+.G-Margin h1{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.G-Margin button{
+    font-size: 10px;
+    padding: 5px 7%;
+    font-weight: 700;
+    cursor: pointer;
+}
+button{
+    border: 0;
+    outline: 0;
+    background: #FFD662;
+}
+.G-Marvin{
+    display: flex;
+    gap: 3rem;
+}
+.G-Marvin h1{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.G-Marvin button{
+    font-size: 10px;
+    padding: 5px 7%;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.P-Graph{
+    margin-top: 8px;
+    font-weight: 100;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #666464;
+}
+.Button-Ch{
+    margin-top: 10px;
+    width: 100%;
+}
+.Plan{
+    font-size: 12px;
+    padding: 8px 33%;
+    font-weight: 700;
+    border-radius: 5px;
+    background: #196BDE;
+    color: #fff;
+}
+.Blan{
+    font-size: 12px;
+    padding: 8px 31%;
+    font-weight: 700;
+    border-radius: 5px;
+    background: #196BDE;
+    color: #fff;
+}
+.Plan:hover{
+    background: #1A4884;
+    transition: 1s ease;
+    cursor: pointer;
+}
+.Blan:hover{
+    background: #1A4884;
+    transition: 1s ease;
+    cursor: pointer;
+}
+.Write-Up{
+    width: 100%;
+    padding: 2px 1px;
+}
+.Write-Up h4{
+    font-size: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 3.8%;
+}
+.Write-Up p{
+    font-size: 10px;
+    margin-bottom: 3.5%;
+}
+.AD{
+    cursor: pointer;
+}
+.AD p{
+    background: #fff;
+    border-bottom: 1px solid #333;
+}
+.AD p a{
+    color: #333;
+}
+
+/* ----WRite--DowN-----------*/
+
+.Write-Down{
+    width: 100%;
+    padding: 2px 1px;
+    margin-top: 5px;
+}
+.Write-Down h4{
+    font-size: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 3.8%;
+}
+.Write-Down p{
+    font-size: 10px;
+    margin-bottom: 3.5%;
+}
+
+/*---WRite--CenteR----*/
+
+.Write-Center{
+    width: 100%;
+    padding: 2px 1px;
+    margin-top: 5px;
+}
+.Write-Center h4{
+    font-size: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 3.8%;
+}
+.Write-Center p{
+    font-size: 10px;
+    margin-bottom: 3.5%;
+}
+.Write-Center p a{
+    color: #333;
+    border-bottom: 1px solid #333;
+}
+.Last{
+    width: 100%;
+    padding: 2px 1px;
+    margin-top: 5px;
+}
+.Last h4{
+    font-size: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 3.8%;
+}
+.Last p{
+    font-size: 10px;
+    margin-bottom: 3.5%;
+}
+.Second-To{
+    width: 100%;
+    padding: 2px 1px;
+    margin-top: 5px;
+}
+.Second-To h4{
+    font-size: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 3.8%;
+}
+.Second-To p{
+    font-size: 10px;
+    margin-bottom: 3.5%;
+}
+.Second-To p a{
+    color: #333;
+    border-bottom: 1px solid #333;
+}
+
+
+/*----NOM ---- Arena--- */
+
+.Nom{
+    width: 100%;
+    padding: 6% 7rem;
+    height: 17rem;
+    display: flex;
+    gap: 6rem;
+}
+.Nom img{
+    width: 20rem;
+    height: 50vh;
+}
+
+.Float{
+    margin-top: 2rem;
+}
+.Float h4{
+    margin-bottom: 10px;
+    color: #201d1d;
+    font-weight: lighter;
+}
+.Float h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    color: #041D33;
+}
+
+/*---Miniz Side----- */
+
+.Miniz{
+    border: 2px solid red;
+    width: 100%;
+    height: 20rem;
+    margin-top: 1rem;
+    padding: 6% 5rem;
+}
+.Wht{
+    display: flex;
+    justify-content: center;
+}
+.Wht h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.3rem;
+    font-weight: 900;
+    color: #041D33;
+}
+.Flx{
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.First{
+    border: 2px solid yellow;
+    height: 50vh;
+    width: 30%;
+    background: #F8F9FA;
+}
+.Starz{
+    background: #00B67A;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    color: white;
+    width: 60%;
+    border: 0;
+    outline: 0;
+    flex: 1;
+}
+.Second{
+    border: 2px solid rgb(206, 64, 45);
+    height: 50vh;
+    width: 30%;
+    background: #F8F9FA;
+}
+.Third{
+    border: 2px solid rgb(236, 236, 151);
+    height: 50vh;
+    width: 30%;
+    background: #F8F9FA;
+}
+.Fourth{
+    border: 2px solid rgb(0, 0, 0);
+    height: 50vh;
+    width: 30%;
+    background: #F8F9FA;
+}
+.Fifth{
+    border: 2px solid yellow;
+    height: 50vh;
+    width: 30%;
+    background: #F8F9FA;
+}
