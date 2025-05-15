@@ -26,7 +26,7 @@ const Navbar = () => {
                  <option value="st"><a href="#">Pricing</a></option>
              </select></a></li>
              <li><a href="#"><select title="log" className="SelOp">
-                 <option value="d"><a href="#">Login</a></option>
+                 <option value="d"><a href="#">Log-in</a></option>
                  <option value="d"><a href="#">Sign Up</a></option>
                  <option value="d"><a href="#">Create acc</a></option>
              </select></a></li>
